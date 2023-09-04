@@ -91,6 +91,7 @@ public struct HorizontalValueSliderStyle<Track: View, Thumb: View>: ValueSliderS
             }
             .frame(height: geometry.size.height)
         }
+        .contentShape(Rectangle())
         .frame(minHeight: self.thumbInteractiveSize.height)
     }
 
